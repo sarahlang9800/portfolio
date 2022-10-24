@@ -23,7 +23,7 @@ body {
 }
 
 .header nav {
-    padding-top: 15px;
+    padding-top: 10px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -72,6 +72,12 @@ section {
     text-align: end;
 }
 
+#aboutMe .verticalLine {
+    border-left: 2px solid black;
+    height: 250px;
+    margin: 0px 10px;
+}
+
 .sectionContent {
     display: flex;
     align-items: center;
@@ -88,22 +94,12 @@ section {
     border: 2px solid #00703c;
 }
 
-#aboutMe .verticalLine {
-    border-left: 2px solid black;
-    height: 250px;
-    margin: 0px 10px;
-}
-
-/* work section */
-#work .container {
+/* first project */
+.work .container {
     height: 800px;
 }
 
-#work .sectionContent {
-    position: relative;
-}
-
-#work .verticalLine {
+.work .verticalLine {
     border-left: 2px solid black;
     height: 800px;
     margin: 0px 10px;
@@ -150,10 +146,12 @@ section {
     background-color: #00703c;
     height: 80px;
     width: 180px;
-    padding: 12px 0px 12px 3px;
+    padding: 18px 0px 12px 3px;
 }
 
+/* smaller projects */
 .minorProjects {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     gap: 10px 30px;
@@ -180,8 +178,55 @@ section {
     -webkit-transition: opacity .55s ease-in-out;  
 }
 
+.imageOneTitle {
+    position: absolute;
+    bottom: 220px;
+    left: 3px;
+    display: block;
+    font-size: 9px;
+    background-color: #00703c;
+    height: 40px;
+    width: 90px;
+    padding: 14px 0px 10px 1px;
+}
 
-/* contact me nav */
+.imageTwoTitle {
+    position: absolute;
+    bottom: 220px;
+    left: 530px;
+    display: block;
+    font-size: 9px;
+    background-color: #00703c;
+    height: 40px;
+    width: 90px;
+    padding: 14px 0px 12px 1px;
+}
+
+.imageThreeTitle {
+    position: absolute;
+    bottom: 25px;
+    left: 3px;
+    display: block;
+    font-size: 9px;
+    background-color: #00703c;
+    height: 40px;
+    width: 90px;
+    padding: 14px 0px 12px 1px;
+}
+
+.imageFourTitle { 
+    position: absolute;
+    bottom: 25px;
+    left: 530px;
+    display: block;
+    font-size: 9px;
+    background-color: #00703c;
+    height: 40px;
+    width: 90px;
+    padding: 14px 0px 12px 1px;
+}
+
+/* contact info */
 #contactMe {
     padding-top: 10px;
 }
