@@ -22,15 +22,17 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 ## Live URL
-
+https://sarahlang9800.github.io/portfolio/
 
 ## Link to Code
 https://github.com/sarahlang9800/portfolio
 
 ## Example Photo 
-![Portfolio Example Picture]
+![Portfolio Example Picture](img/portfolio-example-photo.png)
 
 ## Discription 
 * Created a portfolio with working UI's to scroll to the corresponding section. 
-* Added links to Phone, eEmail, GitHub, LinkedIn, and Resume.
+* Added links to Phone, Email, GitHub, LinkedIn, and   Resume.
 * Added comments in CSS.
+* Made my first image of my application larger in size than the others.
+* Added links to to my application images.
