@@ -96,8 +96,7 @@ section {
 
 /* work section */
 #work .container {
-    height: 600px;
-    flex-wrap: wrap;
+    height: 800px;
 }
 
 #work .sectionContent {
@@ -106,13 +105,14 @@ section {
 
 #work .verticalLine {
     border-left: 2px solid black;
-    height: 600px;
+    height: 800px;
     margin: 0px 10px;
 }
 
 .projectContent {
     display: flex;
     margin: 0px 30px;
+    flex-wrap: wrap;
 }
 
 .majorProject {
@@ -124,13 +124,21 @@ section {
 
 .majorProject img {
     height: 370px;
-    width: 1010px;
+    width: 1030px;
     border-radius: 10px;
     border: 3px solid #00703c;
     opacity: 1.0;
     transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -webkit-transition: opacity 1s ease-in-out;
+}
+
+.majorProject:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
 }
 
 .imageTitle {
@@ -148,61 +156,30 @@ section {
 .minorProjects {
     display: flex;
     flex-wrap: wrap;
+    gap: 10px 30px;
+    justify-content: center;
 }
 
 .minorProjects img {
-    height: 100px;
-    width: 250px;
-}
-
-
-/* .chessImage {
-    height: 370px;
-    width: 1010px;
-    border-radius: 10px;
-    margin: 10px 25px 10px 0px;
-    border: 3px solid #00703c;
-    opacity: 1.0;
-    transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
-}
-
-
-.chessImage:hover {
-    cursor: pointer;
-    opacity: 0.6;
-    transition: opacity .55s ease-in-out;
-    -moz-transition: opacity .55s ease-in-out;
-    -webkit-transition: opacity .55s ease-in-out;
-}
-
-
-.smallProjectContainer {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-.smallProjects {
-    height: 185px;
+    height: 175px;
     width: 505px;
+    margin-left: -10px;
     border-radius: 10px;
-    margin: 10px 25px 10px 0px;
     border: 3px solid #00703c;
     opacity: 1.0;
     transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -webkit-transition: opacity 1s ease-in-out;
 }
-  
-.smallProjects:hover {
+
+.minorImage:hover {
     cursor: pointer;
     opacity: 0.6;
     transition: opacity .55s ease-in-out;
     -moz-transition: opacity .55s ease-in-out;
-    -webkit-transition: opacity .55s ease-in-out;
-} */
+    -webkit-transition: opacity .55s ease-in-out;  
+}
+
 
 /* contact me nav */
 #contactMe {
@@ -216,22 +193,20 @@ section {
 }
 
 
-#contactMe nav {
-    padding-top: 40px;
-    margin-right: 20px;
-    float: right;
+.contactInfo {
+    width: 1000px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    height: 100px;
 }
 
-#contactMe nav ul {
-    list-style-type: none;
+.contactInfo ul {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
 }
 
-#contactMe nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
 
 #contactMe a {
     color: black;
