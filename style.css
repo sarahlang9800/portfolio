@@ -13,7 +13,7 @@ body {
     padding: 13px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: black;
-    color: white;
+    color: whitesmoke;
 }
 
 .header h1 {
@@ -41,7 +41,7 @@ body {
 }
 
 a {
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
 }
 
@@ -95,11 +95,11 @@ section {
 }
 
 /* first project */
-.work .container {
+#work .container {
     height: 800px;
 }
 
-.work .verticalLine {
+#work .verticalLine {
     border-left: 2px solid black;
     height: 800px;
     margin: 0px 10px;
@@ -113,7 +113,7 @@ section {
 
 .majorProject {
     position: relative;
-    height: 400px;
+    height: 370px;
     display: flex;
     justify-content: center;
 }
@@ -139,7 +139,7 @@ section {
 
 .imageTitle {
     position: absolute;
-    bottom: 55px;
+    bottom: 25px;
     left: 3px;
     display: block;
     font-size: 15px;
@@ -152,6 +152,7 @@ section {
 /* smaller projects */
 .minorProjects {
     position: relative;
+    height: 400px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px 30px;
@@ -180,8 +181,8 @@ section {
 
 .imageOneTitle {
     position: absolute;
-    bottom: 220px;
-    left: 0px;
+    top: 120px;
+    left: 3px;
     display: block;
     font-size: 9px;
     background-color: #00703c;
@@ -192,8 +193,8 @@ section {
 
 .imageTwoTitle {
     position: absolute;
-    bottom: 220px;
-    left: 525px;
+    bottom: 240px;
+    left: 528px;
     display: block;
     font-size: 9px;
     background-color: #00703c;
@@ -204,8 +205,8 @@ section {
 
 .imageThreeTitle {
     position: absolute;
-    bottom: 25px;
-    left: 0px;
+    bottom: 37px;
+    left: 3px;
     display: block;
     font-size: 9px;
     background-color: #00703c;
@@ -216,7 +217,7 @@ section {
 
 .imageFourTitle { 
     position: absolute;
-    bottom: 25px;
+    bottom: 37px;
     left: 530px;
     display: block;
     font-size: 9px;
@@ -224,7 +225,7 @@ section {
     height: 40px;
     width: 90px;
     padding: 14px 0px 12px 1px;
-}
+} 
 
 /* contact info */
 #contactMe {
@@ -270,39 +271,9 @@ section {
     }
   }  
 
+
   @media screen and (min-width: 480px) and (max-width: 768px) {
-    .header {
-      padding: 40px;
-    }.header h1 {
-        font-size: 25px;
-        display: flex;
-        justify-content: center;
-    }.header nav ul li {
-        font-size: 11px;
-        display: inline-block;
-        align-items: center;
-        padding-right: 20px;
-    }.sectionContent {
-        display: flex;
-        align-items: center;
-        font-size: 10px;
-        margin: 0px 0px;
-        line-height: 15px;
-    }.sectionTitle {
-        font-size: 20px;
-        text-align: end;
-    }.sectionImage {
-        height: 75%;
-        width: 35%;
-    }.majorProject img {
-        height: 125px;
-        width: 300px;
-    }.imageTitle {
-        bottom: 285px;
-        left: 3px;
-        font-size: 7px;
-        height: 30px;
-        width: 50px;
-        padding: 0px 0px 12px 3px;
+    body {
+        max-width: 100%;
     }
   } 
