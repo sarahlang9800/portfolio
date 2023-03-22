@@ -1,8 +1,9 @@
 # sarah-lang-portfolio
-
+```
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+```
 
 ## Acceptance Criteria 
 ```
@@ -28,7 +29,7 @@ https://sarahlang9800.github.io/portfolio/
 https://github.com/sarahlang9800/portfolio
 
 ## Example Photo 
-![Portfolio Example Picture](img/portfolio-example-photo.png)
+[Portfolio Example Picture](./Assets/img/portfolio-example-photo.png)
 
 ## Discription 
 * Created a portfolio with working UI's to scroll to the corresponding section. 
